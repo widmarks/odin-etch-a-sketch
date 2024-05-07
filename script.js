@@ -22,7 +22,6 @@ slider.addEventListener(`mousemove`, (e) => {
 slider.addEventListener(`change`, (e) => {
   createCanvas(e.target.value);
 });
-console.log(rgbColor());
 createCanvas(slider.value);
 
 function createCanvas(num) {
