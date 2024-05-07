@@ -15,7 +15,7 @@ body {
   margin-bottom: 20px;
 }
 button {
-  width: 200px;
+  width: 150px;
   margin: 20px;
 }
 .container {
@@ -24,4 +24,10 @@ button {
   width: 600px;
   margin: auto;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+}
+.gridBorder {
+  border: 1px solid black;
+}
+.buttons {
+  display: flex;
 }
